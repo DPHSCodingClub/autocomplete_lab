@@ -1,0 +1,20 @@
+{
+  "name": "autocomplete_lab",
+  "version": "1.0.0",
+  "description": "Coding Club lab",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "lab",
+    "autocomplete",
+    "trie",
+    "nodejs"
+  ],
+  "author": "Joey Malvinni",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
