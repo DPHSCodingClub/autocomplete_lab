@@ -3,7 +3,7 @@ class Node {
 }
 
 class Trie {
-    constructor() {}
+    constructor() {
+		this.root = new Node();
+	}
 }
-
-module.export = Trie;
