@@ -6,7 +6,7 @@ Exploring the inner workings of autocomplete
 Clone repository to working directory
 ```console
 $ git clone https://github.com/DPHSCodingClub/autocomplete_lab.git
-cd autocomplete_lab
+$ cd autocomplete_lab
 ```
 <br>
 
@@ -19,11 +19,17 @@ $ npm install
 <br>
 
 
-Run node server
-```console
-$ npm start
+# Getting Started
+
+To setup the server, `server/src/index.js` is the code which displays searches on the frontend. Currently, script files are added to `server/src/index.html` depending on if you need them. For example, the current script setup is this:
+
+```html
+    <script src="naive.js"></script>
+    <script src="trie.js"></script>
+    <script src="index.js"></script>
 ```
 
+This is to allow the index file to access the `Trie` object.
 
 # Resources
 
@@ -40,3 +46,4 @@ $ npm start
 
 # Author
 [Joey Malvinni](https://github.com/joeymalvinni)
+

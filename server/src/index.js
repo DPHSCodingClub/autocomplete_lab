@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // const trie = new Trie();
-	const trie = new Naive();
+    const trie = new Trie();
+	// const trie = new Naive();
 
     fetch('words_alpha.json')
         .then(response => response.json())
