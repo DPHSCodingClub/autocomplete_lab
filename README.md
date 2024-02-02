@@ -32,6 +32,7 @@ $ npm start
 - Using Patricia Merkle Tries in Ethereum [(Article)](https://ethereum.org/developers/docs/data-structures-and-encoding/patricia-merkle-trie)
     - Understanding the Ethereum Trie [(Article)](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-ethereum-trie/)
 - Base-16 Modified Merkle Tree [(GitHub)](https://github.com/paritytech/trie)
+- Radix Tree implementation in C [(GitHub)](https://github.com/antirez/rax)
 
 
 # License
